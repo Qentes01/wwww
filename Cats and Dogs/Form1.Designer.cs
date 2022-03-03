@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listpets = new System.Windows.Forms.ListBox();
+            this.listPets = new System.Windows.Forms.ListBox();
             this.Pets = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // listpets
+            // listPets
             // 
-            this.listpets.FormattingEnabled = true;
-            this.listpets.Location = new System.Drawing.Point(66, 178);
-            this.listpets.Name = "listpets";
-            this.listpets.Size = new System.Drawing.Size(120, 95);
-            this.listpets.TabIndex = 0;
-            this.listpets.SelectedIndexChanged += new System.EventHandler(this.listpets_SelectedIndexChanged);
+            this.listPets.FormattingEnabled = true;
+            this.listPets.Location = new System.Drawing.Point(69, 115);
+            this.listPets.Name = "listPets";
+            this.listPets.Size = new System.Drawing.Size(120, 95);
+            this.listPets.TabIndex = 0;
+            this.listPets.SelectedIndexChanged += new System.EventHandler(this.listpets_SelectedIndexChanged);
             // 
             // Pets
             // 
@@ -57,7 +57,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Pets);
-            this.Controls.Add(this.listpets);
+            this.Controls.Add(this.listPets);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -68,7 +68,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listpets;
+        private System.Windows.Forms.ListBox listPets;
         private System.Windows.Forms.Label Pets;
     }
 }
